@@ -184,9 +184,5 @@ public class Products{
 		
 	
 	}
-public static void main(String[] args) throws IOException {
-	Products pd=new Products();
-    pd.setProductDetails();
-	
-}
+
 }
