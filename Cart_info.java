@@ -1,16 +1,14 @@
 package shoppingmall;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Cart_info {
-int num_of_carts;
+public  class Cart_info{
+int num_of_carts=10;
 BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-public void setCartDetails() throws IOException{
+public void setCartDetails(){
 	try{
-	System.out.println("enter the number o carts: ");
-	num_of_carts=Integer.parseInt(br.readLine());
+	
 	if(Cust_registration.num_of_cust<=num_of_carts){
 		System.out.println("cart is assigned to the customer");
 	}else{
