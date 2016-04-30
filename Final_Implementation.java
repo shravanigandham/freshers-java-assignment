@@ -92,11 +92,17 @@ public class Final_Implementation extends Thread {
 	   Cust_registration.num_of_cust=Integer.parseInt(br.readLine());
 	   ci.setCartDetails();
 		   Final_Implementation fi1=new Final_Implementation("james",801937292,"james@rr.com","heavy");
+		   ci.num_of_carts--;
 		   Final_Implementation fi2=new Final_Implementation("john",985672458,"john@rr.com","light");
+		   ci.num_of_carts--;
 		   Final_Implementation fi3=new Final_Implementation("richard",875964258,"richard@rr.com","heavy");
+		   ci.num_of_carts--;
 		   Final_Implementation fi4=new Final_Implementation("pollard",954657592,"pollard@rr.com","heavy");
+		   ci.num_of_carts--;
 		   Final_Implementation fi5=new Final_Implementation("michael",846528312,"michael@rr.com","light");
+		   ci.num_of_carts--;
 		   Final_Implementation fi6=new Final_Implementation("william",987564256,"william@rr.com","light");
+		   ci.num_of_carts--;
 		   
 	   
 		   Thread t1=new Thread( fi1);
